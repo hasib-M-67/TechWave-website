@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css file -->
+     <link rel="stylesheet" href="main.css">
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- fontawesome -->
@@ -23,16 +25,35 @@
     <title>TechWave</title>
   </head>
   <body>
-    <header class="bg-[#2A186C]">
-        <div class="w-[1200px] m-auto flex justify-around items-center">
-          <h1 class="text-white text-3xl">Tech<span class="text-transparent bg-clip-text bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600">Wave</span></h1>
-        <ul class="flex gap-8">
-          <li><a class="text-white text-sm" href="">About</a></li>
+    <header class="bg-[#1A0B2E]">
+      <section class="flex justify-between items-center p-4 lg:w-[1200px] lg:m-auto lg:flex lg:justify-around lg:items-center lg:p-6">
+        <h1 class="text-white text-3xl">
+          Tech<span
+            class="text-transparent bg-clip-text bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600"
+            >Wave</span
+          >
+        </h1>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars text-white"></i>
+        </div>
+        <div class="hidden lg:flex lg:items-center lg:justify-between gap-8 w-1/2">
+          <ul class="lg:flex gap-8">
+            <li><a class="text-white text-sm" href="">About</a></li>
           <li><a class="text-white text-sm" href="">Episodes</a></li>
           <li><a class="text-white text-sm" href="">Host</a></li>
-        </ul>
-        <button class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 py-2 px-4 rounded-4xl text-white">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+          </ul>
+          <button
+            class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 py-2 px-4 rounded-4xl text-white"
+          >
+            Subscribe <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
+      </section>
+      <!-- Navbar ends -->
+      <!-- banner starts -->
+      <section>
+        <!-- <img class="w-full lg:w-full" src="./assets/hero-bg.png" alt=""> -->
+      </section>
     </header>
   </body>
 </html>
