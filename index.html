@@ -56,18 +56,18 @@
       <!-- Navbar ends -->
     </header>
     <!-- banner starts -->
-    <section class="bg-[url(./assets/hero-bg.png)] h-[760px]">
-      <div class="flex flex-col h-[580px] items-center">
+    <section class="bg-[url(./assets/hero-bg.png)] lg:w-full lg:h-[760px]">
+      <div class="flex flex-col shrink-0 lg:h-[580px] items-center">
         <div
-          class="w-[350px] h-[350px] rounded-[50%] bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 relative left-10 top-16"
+          class="w-[150px] h-[150px] rounded-[50%] bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 relative top-52 left-4 lg:w-[350px] lg:h-[350px] lg:rounded-[50%] lg:bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 lg:relative lg:left-10 lg:top-16"
         >
           <img
-            class="absolute top-20 left-28"
+            class="w-1/2 absolute top-5 left-9 lg:absolute lg:w-1/4 lg:top-20 lg:left-28"
             src="./assets/microphone.png"
             alt=""
           />
         </div>
-        <div class="text-center">
+        <div class="relative top-44 text-center mt-24 pb-24 lg:ml-24">
           <h1 class="text-white text-5xl mb-4">TechWave</h1>
           <p class="text-white mb-4">
             Your daily dose of tech insights, productivity hacks and personal
@@ -247,5 +247,30 @@
         </div>
       </div>
     </section>
+    <!-- Meet the host section -->
+     <section class="bg-[#1A0B2E]">
+      <h1 class="text-white text-center lg:text-4xl  lg:pt-16 lg:pb-8">Meet The Host</h1>
+      <div class="bg-[#250D44] rounded-2xl lg:w-2/3 lg:m-auto lg:flex lg:gap-8">
+        <div class="lg:w-1/2 flex justify-center items-center p-8">
+          <img src="./assets/host.png" alt="">
+        </div>
+        <div class="m-8">
+          <h1 class="text-white mb-4 lg:text-3xl">
+            Alex Kumar
+          </h1>
+          <p class="text-white mb-4">
+            Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.
+          </p>
+          <div class="flex gap-8 items-center ">
+            <div class="border-2 rounded-[50%] p-2">
+              <img  src="./assets/linkedin.png" alt="">
+            </div>
+            <img src="./assets/x.png" alt="">
+            <img src="./assets/instagram.png" alt="">
+            <img src="./assets/youtube.png" alt="">
+          </div>
+        </div>
+      </div>
+     </section>
   </body>
 </html>
