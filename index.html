@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css file -->
-     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- fontawesome -->
@@ -26,7 +26,9 @@
   </head>
   <body>
     <header class="bg-[#1A0B2E]">
-      <section class="flex justify-between items-center p-4 lg:w-[1200px] lg:m-auto lg:flex lg:justify-around lg:items-center lg:p-6">
+      <section
+        class="flex justify-between items-center p-4 lg:w-[1200px] lg:m-auto lg:flex lg:justify-around lg:items-center lg:p-6"
+      >
         <h1 class="text-white text-3xl">
           Tech<span
             class="text-transparent bg-clip-text bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600"
@@ -36,11 +38,13 @@
         <div class="lg:hidden">
           <i class="fa-solid fa-bars text-white"></i>
         </div>
-        <div class="hidden lg:flex lg:items-center lg:justify-between gap-8 w-1/2">
+        <div
+          class="hidden lg:flex lg:items-center lg:justify-between gap-8 w-1/2"
+        >
           <ul class="lg:flex gap-8">
             <li><a class="text-white text-sm" href="">About</a></li>
-          <li><a class="text-white text-sm" href="">Episodes</a></li>
-          <li><a class="text-white text-sm" href="">Host</a></li>
+            <li><a class="text-white text-sm" href="">Episodes</a></li>
+            <li><a class="text-white text-sm" href="">Host</a></li>
           </ul>
           <button
             class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 py-2 px-4 rounded-4xl text-white"
@@ -50,10 +54,74 @@
         </div>
       </section>
       <!-- Navbar ends -->
-      <!-- banner starts -->
-      <section>
-        <!-- <img class="w-full lg:w-full" src="./assets/hero-bg.png" alt=""> -->
-      </section>
     </header>
+    <!-- banner starts -->
+    <section class="bg-[url(./assets/hero-bg.png)] h-[760px]">
+      <div class="flex flex-col h-[580px] items-center">
+        <div
+          class="w-[350px] h-[350px] rounded-[50%] bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 relative left-10 top-16"
+        >
+          <img
+            class="absolute top-20 left-28"
+            src="./assets/microphone.png"
+            alt=""
+          />
+        </div>
+        <div class="text-center">
+          <h1 class="text-white text-5xl mb-4">TechWave</h1>
+          <p class="text-white mb-4">
+            Your daily dose of tech insights, productivity hacks and personal
+            growth
+          </p>
+          <div class="text-white">
+            <button
+              class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 p-4 rounded-4xl border-none"
+            >
+              <i class="fa-brands fa-spotify"></i> Listen On Spotify
+            </button>
+            <button
+              class="border-2 p-4 rounded-4xl border-[#00FF88] text-[#00FF88]"
+            >
+              <i class="fa-regular fa-envelope"></i>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about the podcast section -->
+    <section class="bg-[#1A0B2E] p-16 text-white">
+      <div class="text-center w-full lg:w-2/3 lg:m-auto">
+        <h1 class="text-5xl mb-4">About The podcast</h1>
+        <p class="text-sm">
+          TechWave is your go-to podcast for staying ahead in the fast paced
+          world of technology. We break down complex topics into digestible
+          insights, explore productivity strategies that actually work, and
+          share stories of personal growth from industry leaders. <br />
+          <br />
+          Join thousands of young professionals and tech enthusiasts who start
+          their day with TechWave
+        </p>
+      </div>
+      <hr class="my-4 lg:my-4 lg:w-[80%] lg:m-auto ">
+      <div class="w-full m-auto lg:w-2/3 lg:m-auto grid grid-cols-2 gap-x-16 gap-y-8 lg:flex lg:justify-around">
+        <div>
+          <h1 class="text-[#00FF88] text-4xl mb-2">150K+</h1>
+          <p class="text-sm">MONTHLY LISTENERS</p>
+        </div>
+        <div>
+          <h1 class="text-[#00FF88] text-4xl">200+</h1>
+          <p class="text-sm">EPISODES PUBLISHED</p>
+        </div>
+        <div>
+          <h1 class="text-[#00FF88] text-4xl flex text-center">4.9<i class="fa-solid fa-star"></i></h1>
+          <p class="text-sm">AVERAGE RATING</p>
+        </div>
+        <div>
+          <h1 class="text-[#00FF88] text-4xl">50+</h1>
+          <p class="text-sm">INDUSTRY EXPERTS</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
