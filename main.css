@@ -22,7 +22,7 @@
 
 
 
-@import "tailwindcss";
+
 @media screen and (max-width:576px){
   .banner-section-container{
   background: url(./assets/mobile-hero-bg.png);
@@ -45,3 +45,9 @@
   top: 25px;
 }
 }
+
+
+
+
+
+@import "tailwindcss";
