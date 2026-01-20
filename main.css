@@ -23,7 +23,7 @@
 
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:640px){
   .banner-section-container{
   background: url(./assets/mobile-hero-bg.png);
   height: auto;
