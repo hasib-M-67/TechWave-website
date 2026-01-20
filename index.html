@@ -47,7 +47,7 @@
             <li><a class="text-white text-sm" href="">Host</a></li>
           </ul>
           <button
-            class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 py-2 px-4 rounded-4xl text-white"
+            class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 py-2 px-4 rounded-4xl text-white hover:animate-bounce cursor-pointer"
           >
             Subscribe <i class="fa-solid fa-arrow-right"></i>
           </button>
@@ -55,6 +55,7 @@
       </section>
       <!-- Navbar ends -->
     </header>
+    <hr class="text-gray-400">
     <!-- banner starts -->
     <section class="banner-section-container">
       <div class="flex flex-col text-center">
@@ -68,8 +69,8 @@
           <h1 class="text-4xl mb-4">TechWave</h1>
           <p class="text-sm">Your daily dose of tech insights, productivity hacks, and personal growth</p>
           <div>
-            <button class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 px-4 py-2 rounded-2xl mr-8 mt-4"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
-            <button class="border-2 border-[#00FF88] px-4 py-2 rounded-2xl text-[#00FF88]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+            <button class="bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600 px-4 py-2 rounded-2xl mr-8 mt-4 hover:animate-bounce cursor-pointer"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+            <button class="border-2 border-[#00FF88] px-4 py-2 rounded-2xl text-[#00FF88] hover:animate-bounce cursor-pointer"><i class="fa-regular fa-envelope"></i> Subscribe</button>
           </div>
         </div>
       </div>
@@ -233,7 +234,7 @@
       </div>
     </section>
     <!-- Meet the host section -->
-    <section class="bg-[#1A0B2E]">
+    <section class="bg-[#1A0B2E] p-16">
       <h1 class="text-white text-center text-3xl py-4 lg:text-4xl lg:pt-16 lg:pb-8">Meet The Host</h1>
       <div class="bg-[#250D44] rounded-2xl lg:w-2/3 lg:m-auto lg:flex lg:gap-8">
         <div class="lg:w-1/2 flex justify-center items-center p-8">
@@ -246,7 +247,7 @@
           <p class="text-white mb-4">
             Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.
           </p>
-          <div class="flex gap-8 items-center justify-center lg:justify-start">
+          <div class="flex gap-8 items-center justify-center pb-8 lg:justify-start ">
             <div class="border-2 border-white rounded-[50%] p-2">
               <img  src="./assets/linkedin.png" alt="">
             </div>
@@ -264,8 +265,22 @@
       </div>
     </section>
     <!-- footer section -->
-    <footer>
-      
+    <footer class="bg-[url(./assets/mobile-footer-bg.png)] bg-no-repeat lg:p-12 flex flex-col justify-center items-center lg:bg-[url(./assets/footer-bg.png)] lg:bg-center">
+      <h1 class="text-white mt-4 text-3xl text-center lg:text-4xl">
+          Tech<span
+            class="text-transparent bg-clip-text bg-linear-60 from-yellow-400 via-orange-600 via-pink-600 to-purple-600"
+            >Wave</span
+          >
+        </h1>
+        <div class="lg:flex lg:justify-center lg:items-center  lg:gap-16 text-white mt-4 lg:mt-12 gap-8 grid grid-cols-2">
+          <p><i class="fa-brands fa-spotify"></i> spotify</p>
+          <p class="flex items-center gap-2"><img src="./assets/apple-podcast.png" alt=""> Apple Podcasts</p>
+          <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+          <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+        </div>
+        <div class="text-white text-center my-8">
+          &copy; 2026 TechWave Podcast. All rights researved.
+        </div>
     </footer>
   </body>
 </html>
